@@ -1,0 +1,20 @@
+{
+    "name": "puppeteer-screenshot-app",
+    "version": "1.0.0",
+    "description": "A Node.js app to handle login and screenshots with Puppeteer",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server.js"
+    },
+    "dependencies": {
+        "body-parser": "^1.20.3",
+        "canvas": "^3.0.1",
+        "dotenv": "^16.4.7",
+        "express": "^4.21.2",
+        "multer": "^1.4.5-lts.1",
+        "node-fetch": "^3.3.2",
+        "openai": "^4.78.1",
+        "puppeteer": "^24.0.0",
+        "tesseract.js": "^6.0.0"
+    }
+}
